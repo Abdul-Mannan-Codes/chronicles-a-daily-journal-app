@@ -37,10 +37,10 @@ The app uses a relational schema to map entries to dates. Using **SQLite** allow
 ---
 
 ## 📸 Preview
-![App Screenshot](./screenshots/dashboard_ss.jpeg)
-![App Screenshot](./screenshots/calendar_ss.jpeg)
-![App Screenshot](./screenshots/journal_ss.jpeg)
-![App Screenshot](./screenshots/past_journals_ss.jpeg)
+<img width="300"  alt="Image" src="https://github.com/user-attachments/assets/09d3dc45-1c0f-4d92-bf0d-602a2ec7a40a" />
+<img width="300" alt="Image" src="https://github.com/user-attachments/assets/25597680-4bff-4ce3-bf4c-9be66aa66146" />
+<img width="300"  alt="Image" src="https://github.com/user-attachments/assets/0141c7c9-1a8d-478a-a0c0-54159571feec" />
+<img width="300"  alt="Image" src="https://github.com/user-attachments/assets/b15e0b22-cc00-4d9a-88d2-c04f42803dc3" />
 
 
 ---
