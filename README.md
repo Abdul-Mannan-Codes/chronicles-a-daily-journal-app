@@ -54,6 +54,6 @@ The app uses a relational schema to map entries to dates. Using **SQLite** allow
 ---
 
 ## 👨‍💻 About the Developer
-I am a **Computer Engineering student** with a 5-year technical foundation (Diploma + Degree). I am a technical generalist passionate about building systems that bridge the gap between complex data and user-friendly interfaces.
+I am a **Computer Engineering student** with a 4-year technical foundation (Diploma + Degree). I am a technical generalist passionate about building systems that bridge the gap between complex data and user-friendly interfaces.
 
 ---
