@@ -37,7 +37,11 @@ The app uses a relational schema to map entries to dates. Using **SQLite** allow
 ---
 
 ## 📸 Preview
-*(Tip: Add a screenshot or a GIF of your app here to make the README pop!)*
+![App Screenshot](./screenshots/dashboard_ss.jpeg)
+![App Screenshot](./screenshots/calendar_ss.jpeg)
+![App Screenshot](./screenshots/journal_ss.jpeg)
+![App Screenshot](./screenshots/past_journals_ss.jpeg)
+
 
 ---
 
