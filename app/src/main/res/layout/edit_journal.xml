@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <!-- Header -->
+    <include layout="@layout/common_header" />
+
+    <!-- Main Content Scrollable -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvJournalDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#673AB7"
+                android:layout_marginBottom="10dp" />
+
+            <EditText
+                android:id="@+id/etJournalEntry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your thoughts here..."
+                android:textSize="16sp"
+                android:gravity="top"
+                android:padding="10dp"
+                android:background="@android:color/white"
+                android:inputType="textMultiLine"
+                android:minLines="10" />
+
+            <Button
+                android:id="@+id/btnSaveJournal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Journal"
+                android:background="#673AB7"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favorite❤"
+                android:id="@+id/cbFav"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Footer -->
+    <include layout="@layout/common_footer" />
+</LinearLayout>

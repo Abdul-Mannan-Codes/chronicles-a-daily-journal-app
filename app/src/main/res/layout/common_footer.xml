@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#673AB7"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/btnCalendar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/calendar_icon"
+        android:contentDescription="Calendar"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_gravity="start"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/btnDashboard"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home_icon"
+        android:contentDescription="Dashboard"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/btnCreate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/add_icon"
+        android:contentDescription="Create"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_marginHorizontal="16dp"
+        android:layout_weight="1"/>
+
+    <ImageButton
+        android:id="@+id/btnSettingsIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/settings_icon"
+        android:contentDescription="Settings"
+        android:scaleType="fitCenter"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:layout_weight="1"/>
+</LinearLayout>
